@@ -10,7 +10,7 @@ spec:
     storage: 10Gi
   accessModes:
     - ReadWriteOnce
-  storageClassName: ""
+  storageClassName: standard-rwo
   gcePersistentDisk:
     pdName: mysql-disk
     fsType: ext4
